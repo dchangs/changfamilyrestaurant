@@ -1,0 +1,147 @@
+
+* {
+	font-family: sans-serif;
+}
+
+header {
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+header h1 {
+	font-size: 48px;
+	font-weight: 800;
+}
+
+header h2 {
+	font-size: 24px;
+	padding: 10px 30px;
+}
+
+/*menu display*/
+
+li {
+	list-style-type: none;
+	padding: 0;
+}
+
+li span {
+	text-align: right;
+	margin-right: 0px;
+}
+
+#menu {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	padding-left: 0px;
+	border: 1px solid #000;
+	width: 90%;
+	background-color: pink;
+}
+
+#menu h1 {
+	font-size: 24px;
+	font-weight: 700;
+	padding: 10px 0;
+}
+
+#menu ul {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.fooditem {
+	width: 50%;
+	text-align: left;
+}
+
+.price {
+	width: 20%;
+}
+
+button#order {
+	margin: 50px auto;
+	font-size: 16px;
+	font-family: sans-serif;
+	background-color: violet;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button#order:hover {
+	background-color: black;
+	color: white;
+}
+
+/*customer's order*/
+
+#customerorder {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+#customerorder h1 {
+	font-size: 28px;
+	padding: 20px 0;
+}
+
+#customerorder ul {
+	display: inline-block;
+}
+
+.number {
+	width: 10%;
+	text-align: left;
+}
+
+.item {
+	width: 60%;
+	text-align: left;
+}
+
+.totalcost {
+	width: 20%;
+	text-align: right;
+}
+
+/* total bill */
+
+#bill {
+	width: 90%;
+	text-align: right;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+#bill ul {
+	display: inline-block;
+}
+
+#totals {
+	width: 40%;
+	text-align: left;
+}
+
+#totalamounts {
+	width: 20%;
+	padding-right: 25px;
+}
+
+@media (max-width: 470px) {
+	ul {
+		padding: 0;
+	}
+	#menu {
+		width: 100%;
+	}
+
+	#fooditem {
+		width: 80%;
+	}
+}
